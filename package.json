@@ -1,0 +1,39 @@
+{
+  "name": "shortener",
+  "description": "A url shortener backed by Redis 2.6.x (as it requires Lua script to function).",
+  "version": "0.1.0",
+  "homepage": "https://github.com/tonymilne/shortener",
+  "author": {
+    "name": "Tony Milne"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tonymilne/shortener.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tonymilne/shortener/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/tonymilne/shortener/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/shortener",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "redis": "~0.8.2"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.17",
+    "grunt-simple-mocha": "~0.2.0",
+    "should": "~1.2.1",
+    "step": "0.0.5"
+  },
+  "keywords": ["redis", "url shortener", "lua script", "shorten", "shortener", "base60"]
+}
