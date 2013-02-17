@@ -30,6 +30,7 @@ you run the risk of overwriting urls that you add using shortener.
 
 The slugs returned by the shortener are case sensitive. The complete sequence of characters used, written out in rows of 10 for readability are:
 
+```
    0 1 2 3 4 5 6 7 8 9
  0 0 1 2 3 4 5 6 7 8 9
 10 A B C D E F G H J K
@@ -37,6 +38,7 @@ The slugs returned by the shortener are case sensitive. The complete sequence of
 30 W X Y Z _ a b c d e
 40 f g h i j k m n o p
 50 q r s t u v w x y z
+```
 
 For more information on base60 check out Tantek Çelik's documentation - http://ttk.me/w/NewBase60
 
